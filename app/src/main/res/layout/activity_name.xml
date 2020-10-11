@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_slab_thin"
+            android:textColorHint="#000000"
+            android:textSize="20dp"
+            android:backgroundTint="#000000"
+            android:hint="Name"/>
+
+
+        <Button
+            android:onClick="next3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:background="#000000"
+            android:layout_marginTop="75dp"
+            android:textColor="#ffff"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_slab_bold"/>
+
+    </LinearLayout>
+
+
+    <!--    footer start-->
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/roboto_slab_bold"
+                    android:gravity="center_vertical"
+                    android:text="STUDY"
+                    android:textColor="#7C7A7A"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_slab_bold"
+                    android:gravity="center_vertical"
+                    android:text="table"
+                    android:textColor="#7C7A7A"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_slab_thin"
+                android:text="CARE A SMILE"
+                android:layout_marginTop="-10dp"
+                android:layout_marginStart="16dp"
+                android:textColor="#7C7A7A"
+                android:textFontWeight="12"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--    footer end-->
+
+</RelativeLayout>
