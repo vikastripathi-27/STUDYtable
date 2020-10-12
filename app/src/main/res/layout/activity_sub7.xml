@@ -22,16 +22,16 @@
             android:textStyle="bold"
             android:fontFamily="@font/roboto_slab_thin"
             android:textSize="20dp"
-            android:textColorHint="#000000"
+            android:textColorHint="#363636"
             android:backgroundTint="#000000"
             android:hint="Subject 7"/>
 
 
-        <Button
+        <ImageButton
             android:onClick="next9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
+            android:src="@drawable/ic_arrow_white"
             android:textAllCaps="false"
             android:background="#000000"
             android:layout_marginTop="75dp"

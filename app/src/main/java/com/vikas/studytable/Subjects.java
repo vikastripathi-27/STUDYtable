@@ -60,7 +60,6 @@ public class Subjects extends AppCompatActivity {
     public void deadline(View view) {
         Intent intent = new Intent(this, Deadline.class);
         startActivity(intent);
-        finish();
     }
 
 
